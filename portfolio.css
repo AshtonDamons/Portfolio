@@ -1,0 +1,198 @@
+/* General Styles */
+body {
+    margin: fit-content;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: #fff;
+    text-align: center;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #000;
+    position: fixed;
+    width: 97%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    color: limegreen;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: limegreen;
+}
+
+.contact-btn {
+    background: limegreen;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+}
+
+.hero {
+    margin-top: 100px;
+    padding: 50px;
+}
+
+.hero img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.gradient-text {
+    background: linear-gradient(to right, limegreen, cyan);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.highlight {
+    color: limegreen;
+}
+
+.btn-group {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: limegreen;
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.secondary {
+    background: none;
+    border: 1px solid limegreen;
+    color: limegreen;
+}
+
+.about, .projects, .contact {
+    padding: 50px;
+}
+
+.project-upload {
+    margin-bottom: 20px;
+}
+
+#project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-item {
+    width: 200px;
+    background: #222;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.project-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+form input, form textarea {
+    width: 80%;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background: limegreen;
+    padding: 10px 20px;
+    border: none;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    padding: 20px;
+    background: #000;
+}
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 0;
+}
+
+.project-item {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.7);
+}
+
+.project-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.project-item h3 {
+    color: limegreen;
+    margin-bottom: 10px;
+}
+
+.project-item p {
+    color: #ccc;
+    margin-bottom: 10px;
+}
+
+.project-item a {
+    color: cyan;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-item a:hover {
+    color: limegreen;
+}
+
+ul li{
+    list-style-type: none;
+}
+h1{
+    color: limegreen;
+}
+h2{
+    color: limegreen;
+}
